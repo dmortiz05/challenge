@@ -1,0 +1,388 @@
+#navbar {
+    width:100%;
+	height:50px;
+	margin:auto;
+    background:#9e9ee4;
+}
+
+/* Hola Cristian*/
+#saludo{
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'roboto';
+	padding-top: 15px;
+	margin-left: 200px;
+}
+
+/* Botón del menú*/
+.bt-menu {
+	display:none;
+}
+
+#brand{
+	display: none;
+}
+
+/* Soy la tuerquita del navbar*/
+.icon-cog{
+	color: white;
+	float: right;
+	margin-right: 25px;
+	margin-top: -15px;
+}
+
+/* Menu vertical*/
+#barraVertical{
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+    margin-top: -50px;
+    background-color: #9e9ee4;
+}
+
+/* Menú vertical*/
+#id_contenido{
+    display: block;
+    color: white;
+    padding: 11px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+/* Soy el brand (? */
+#id_titulo{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 18px;
+}
+
+/* Íconos del menú*/
+#icon_menu{
+    margin-right:10px;
+}
+
+/* Leyenda "Productos más vendidos" */
+#productosVendidos{
+    position: absolute;
+    font-family: 'roboto';
+    font-size: 17px;
+    margin-left: 222px;
+    margin-top: -23px;
+}
+
+/* Imágenes de productos*/
+#icon_producto{
+    height: 120px;
+    width: 120px;
+    padding: 0px;
+    margin-right: 5px;
+    box-shadow: 0 0 3px grey;
+    opacity: 0,5;
+    filter: blur(0.75px);
+}
+
+/* Contenedor de las imágenes*/
+#lacaja{
+    position: relative;
+    float: none;
+    margin-left: 215px;
+    margin-top: 45px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: auto;
+    height: 130px;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+/* Título de las imágenes*/
+#tituloProducto{
+    float: left;
+    position: absolute;
+    font-family: 'roboto';
+    font-size: 18px;
+    margin-left: -123px;
+    margin-top: 80px;
+}
+
+/* Subtítulo de las imágenes*/
+#subtituloProducto{
+    float: left;
+    position: absolute;
+    font-family: 'roboto';
+    font-size: 15px;
+    margin-left: -122px;
+    margin-top: 100px;
+}
+
+/* Leyenda de "Ver más" debajo de las imágenes de los productos*/
+#verMas{
+    position: relative;
+    font-family: 'roboto';
+    font-size: 13px;
+    margin-top: 11px;
+    margin-left: 225px;
+    text-align: left;
+}
+
+/* Común a ambas tablas*/
+table{
+    border-collapse: collapse;
+    background-color: lightgrey;
+    border-radius: 7px;
+    box-shadow: 0 0 3px black;
+}
+
+td{
+    width: 300px;
+    min-width: 250px;
+}
+
+/* Título de la tabla de pedidos*/
+#titulo_tablaPedidos{
+    float: left;
+    position: absolute;
+    font-family: 'roboto';
+    margin-top: 50px;
+    margin-left: 212px;
+}
+
+/* Ícono de filtrado de la tabla de pedidos*/
+#icon_pedidos{
+    float: left;
+    position: absolute;
+    font-family: 'roboto';
+    margin-top: 50px;
+    margin-left: 543px;
+}
+
+th{
+    width: 25px;
+    min-width: 25px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+/* Tabla de pedidos*/
+#tablaPedidos{
+    float: left;
+    position: absolute;
+    font-family: 'roboto';
+    margin-top: 70px;
+    margin-left: 212px;
+}
+
+#nombreProveedor{
+    float: left;
+    position: relative;
+    font-family: 'roboto';
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+/* Texto dentro de la tabla de pedidos*/
+#detallePedido{
+    float: left;
+    position: relative;
+    font-family: 'roboto';
+    font-size: 12px;
+    margin-top: 26px;
+    margin-left: -132px;
+    padding-bottom: 2px;
+}
+
+/* Título de la tabla de tareas*/
+#titulo_tablaTareas{
+    float: left;
+    position: absolute;
+    font-family: 'roboto';
+    margin-top: 50px;
+    margin-left: 602px;
+}
+
+/* Ícono de filtrado de la tabla de tareas*/
+#icon_tareas{
+    float: left;
+    position: absolute;
+    font-family: 'roboto';
+    margin-top: 50px;
+    margin-left: 908px;
+}
+
+/* Tabla de tareas*/
+#tablaTareas{
+    float: left;
+    position: absolute;
+    font-family: 'roboto';
+    margin-top: 70px;
+    margin-left: 602px;
+}
+
+/* Texto dentro de la tabla de tareas*/
+#reponerGondola{
+    float: left;
+    position: relative;
+    font-family: 'roboto';
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 2px;
+    padding-bottom: 2px;
+}
+
+/* Comportamiento cuando el ancho de la pantalla es menos de 930px*/
+@media screen and (max-width:930px) {
+    #titulo_tablaTareas{
+        float:none;
+        margin-left: 212px;
+        margin-top: 265px;
+    }
+
+    #icon_tareas{
+        float: none;
+        margin-left: 518px;
+        margin-top: 265px;
+    }
+
+    #tablaTareas{
+        float: none;
+        margin-left: 212px;
+        margin-top: 285px;
+    }
+}
+
+/* Comportamiento cuando el ancho de la pantalla es menos de 930px*/
+@media screen and (max-width:800px) {
+	#barraVertical {
+		width:50%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+        z-index: 999;
+    }
+    
+    .sombreado{
+        filter:blur(1.5px);
+    }
+
+	#id_contenido {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	.bt-menu {
+		display:flex;
+		color:white;
+	}
+
+	.icon-menu{
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+
+	#saludo{
+		display: none;
+	}
+
+	#icon-cog{
+		color: white;
+		float: right;
+		margin-right: 25px;
+		margin-top: -15px;
+	}
+
+	#brand{
+		display: flex;
+		position: relative;
+		float: left;
+		color: white;
+		font-family: 'roboto';
+		font-size: 16px;
+		text-align: center;
+		margin-left: 45%;
+		margin-top: -15px;
+	}
+
+	#id_titulo{
+		display: none;
+    }
+    
+    #productosVendidos{
+        float: none;
+        margin-left: 19px;
+        margin-top: -23px;
+    }
+
+	#lacaja{
+		float: none;
+        margin-left: 10px;
+        margin-top: 40px;
+        overflow-y: hidden;
+        overflow-x: auto;
+        width: auto;
+        height: 130px;
+        padding: 10px;
+        white-space: nowrap;
+    }
+
+    #tituloProducto{
+        float: none;
+    }
+
+    #subtituloProducto{
+        float: none;
+    }
+
+    #verMas{
+        float: none;
+        margin-left:20px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    
+    #titulo_tablaPedidos{
+        float: none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #icon_pedidos{
+        float: none;
+        margin-left: 338px;
+        margin-top: 10px;
+    }
+
+	#tablaPedidos{
+		float: none;
+        margin-left: 10px;
+        margin-top: 35px;
+    }
+
+    #titulo_tablaTareas{
+        float:none;
+        margin-left: 10px;
+        margin-top: 220px;
+    }
+
+    #icon_tareas{
+        float: none;
+        margin-left: 316px;
+        margin-top: 220px;
+    }
+    
+    #tablaTareas{
+        float: none;
+        margin-left: 10px;
+        margin-top: 245px;
+    }
+}
